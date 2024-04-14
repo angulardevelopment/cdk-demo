@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BasicComponent } from './basic.component';
+import { DevKitFeaturesComponent } from './component-dev-kit-features.component';
 
-describe('BasicComponent', () => {
-  let component: BasicComponent;
-  let fixture: ComponentFixture<BasicComponent>;
+describe('DevKitFeaturesComponent', () => {
+  let component: DevKitFeaturesComponent;
+  let fixture: ComponentFixture<DevKitFeaturesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BasicComponent ]
+      declarations: [ DevKitFeaturesComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BasicComponent);
+    fixture = TestBed.createComponent(DevKitFeaturesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

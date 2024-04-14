@@ -2,11 +2,11 @@ import { LiveAnnouncer } from '@angular/cdk/a11y';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-basic',
-  templateUrl: './basic.component.html',
-  styleUrls: ['./basic.component.scss']
+  selector: 'app-component-dev-kit-features',
+  templateUrl: './component-dev-kit-features.component.html',
+  styleUrls: ['./component-dev-kit-features.component.scss']
 })
-export class BasicComponent {
+export class DevKitFeaturesComponent {
 
   color = '#fff';
   public defaultColors: string[] = ['red', 'green'];

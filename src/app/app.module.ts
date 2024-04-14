@@ -5,12 +5,12 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BasicComponent } from './basic/basic.component';
+import { DevKitFeaturesComponent } from './component-dev-kit-features/component-dev-kit-features.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BasicComponent
+    DevKitFeaturesComponent
   ],
   imports: [
     BrowserModule,
