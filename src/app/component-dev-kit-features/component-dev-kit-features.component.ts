@@ -4,7 +4,9 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-component-dev-kit-features',
   templateUrl: './component-dev-kit-features.component.html',
-  styleUrls: ['./component-dev-kit-features.component.scss']
+  styleUrls: ['./component-dev-kit-features.component.scss'],
+    standalone: false
+  
 })
 export class DevKitFeaturesComponent {
 
